@@ -1,0 +1,68 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: #f1f5f9;
+}
+
+.card {
+  background: white;
+  padding: 1.5rem 2rem;
+  text-align: center;
+  max-width: 300px;
+  margin: 3rem auto;
+  border-radius: 0.5rem;
+  border: 1.5px solid black;
+}
+
+.card-1 {
+  border-color: rgb(64, 64, 248);
+}
+.card-2 {
+  border-color: rgb(219, 85, 190);
+}
+
+.fav {
+  background-color: black;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  background-color: blue;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.card-2 .icon {
+  background-color: pink;
+}
+
+.card-1 .icon {
+  background-color: blue;
+}
+
+.title {
+  text-transform: capitalize;
+  letter-spacing: 2px;
+}
+
+.text {
+  line-height: 1.5;
+  color: grey;
+}
+
+.btn {
+  text-transform: capitalize;
+  border: transparent;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  letter-spacing: 2px;
+}
+
+.btn-pink {
+  background: #ffe8f1;
+  color: #ff69a6;
+}
+.btn-blue {
+  background: #ecf4ff;
+  color: #68a3ff;
+}
